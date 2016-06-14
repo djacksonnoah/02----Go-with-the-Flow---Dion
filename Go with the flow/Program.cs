@@ -12,7 +12,7 @@ namespace Go_with_the_flow
         {
             Console.WriteLine("You just ordered a Whopper.  Would you like an order of fries?  Answer yes or no!");
 
-
+            //first comment
             string answer = Console.ReadLine();
 
             if (answer.ToLower() == "yes")
