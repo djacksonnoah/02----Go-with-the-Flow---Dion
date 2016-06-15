@@ -12,7 +12,7 @@ namespace Go_with_the_flow
         {
             Console.WriteLine("You just ordered a Whopper.  Would you like an order of fries?  Answer yes or no!");
 
-            //first comment
+            //first comment:  My program does not accounted for any answer but yes.  It recognizes yes and not yes. 
             string answer = Console.ReadLine();
 
             if (answer.ToLower() == "yes")
